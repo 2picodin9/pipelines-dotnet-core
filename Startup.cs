@@ -49,6 +49,8 @@ namespace pipelines_dotnet_core
                 app.UseHsts();
             }
 
+            // Run pinelines
+
             app.UseHttpsRedirection();
             app.UseStaticFiles();
             app.UseCookiePolicy();
