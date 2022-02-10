@@ -49,7 +49,7 @@ namespace pipelines_dotnet_core
                 app.UseHsts();
             }
 
-            // Run pinelines
+            // Test pinelines
 
             app.UseHttpsRedirection();
             app.UseStaticFiles();
